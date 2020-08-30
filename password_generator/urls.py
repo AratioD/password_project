@@ -23,5 +23,6 @@ from generator import views
 
 urlpatterns = [
     path('', views.home),
+    path('burgers', views.burgers),
 ]
 
