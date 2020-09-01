@@ -22,7 +22,8 @@ from generator import views
 # ]
 
 urlpatterns = [
+    # home page
     path('', views.home),
+    # burger page
     path('burgers', views.burgers),
 ]
-

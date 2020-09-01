@@ -3,8 +3,10 @@ from django.http import HttpResponse
 
 # Create your views here.
 
+
 def home(request):
-    return HttpResponse("hello there world, fantastic world!")
+    return render(request, 'generator/home.html')
+
 
 def burgers(request):
-    return HttpResponse("burgers are fantastic!")
+    return HttpResponse('<h1>burgers are fantastic!</h1>')
