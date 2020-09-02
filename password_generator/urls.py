@@ -25,5 +25,5 @@ urlpatterns = [
     # home page
     path('', views.home),
     # burger page
-    path('password', views.password),
+    path('password/', views.password, name='password'),
 ]
