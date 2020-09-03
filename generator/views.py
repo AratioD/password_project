@@ -13,7 +13,7 @@ def password(request):
 
     characters = list('abcdefghijklmnopqrstuvwxyz')
 
-    lenght = 10
+    lenght = int(request.GET.get('lenght'))
 
     thepassword = ''
 
